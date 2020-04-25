@@ -34,7 +34,7 @@ class Header extends Component {
             <MDBNavbar color="unique-color-dark" scrolling="true" transparent={this.state.route === "/"} dark expand="md" className="fixed-top">
                 <div class="container">
                     <Link to="/" class="navbar-brand">
-                        <strong><span className="logo-1">Web</span> <span className="logo-2">Appetizer</span><i class="fas fa-utensils ml-1"></i></strong>
+                    <i class="fas fa-glasses mr-2"></i><strong><span className="logo-1">Nerd Nibble</span></strong>
                     </Link>
 
                     <MDBNavbarToggler onClick={this.navbarToggle} className="pr-3 mr-2">

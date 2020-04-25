@@ -10,7 +10,7 @@ import $ from 'jquery';
 class Home extends Component {
 
     componentDidMount() {
-        document.title = 'Web Appetizer | Byte-sized Web Applications';
+        document.title = 'Nerd Nibble | Byte-sized Web Applications';
         $("html, body").animate({ scrollTop: 0 }, "slow");
     }
 
