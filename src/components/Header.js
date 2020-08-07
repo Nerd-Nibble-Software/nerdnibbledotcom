@@ -11,7 +11,14 @@ function Header() {
     return (
         <nav class="navbar navbar-marketing navbar-expand-lg bg-transparent navbar-dark fixed-top">
             <div class="container">
-                <a class="navbar-brand text-white" href="index.html">Nerd Nibble Software</a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i data-feather="menu"></i></button>
+                <a class="navbar-brand text-white" href="index.html">Nerd Nibble Software</a>
+                <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <svg width="100" height="100" viewBox="0 0 100 100" transform="scale(2)">
+                        <path class="line line1" d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
+                        <path class="line line2" d="M 20,50 H 80" />
+                        <path class="line line3" d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
+                    </svg>
+                </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto mr-lg-5">
                         <li class="nav-item"><a class="nav-link" href="index.html">Home </a></li>
@@ -19,7 +26,7 @@ function Header() {
                             <a class="nav-link dropdown-toggle" id="navbarDropdownDemos" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Landings<i class="fas fa-chevron-right dropdown-arrow"></i></a>
                             <div class="dropdown-menu dropdown-menu-right animated--fade-in-up mr-lg-n15" aria-labelledby="navbarDropdownDemos">
                                 <div class="row no-gutters">
-                                    <div class="col-lg-5 p-lg-3 bg-img-cover overlay overlay-primary overlay-70 d-none d-lg-block" style={{"background-image": "url('https://source.unsplash.com/mqO0Rf-PUMs/500x350')"}}>
+                                    <div class="col-lg-5 p-lg-3 bg-img-cover overlay overlay-primary overlay-70 d-none d-lg-block" style={{ "background-image": "url('https://source.unsplash.com/mqO0Rf-PUMs/500x350')" }}>
                                         <div class="d-flex h-100 w-100 align-items-center justify-content-center">
                                             <div class="text-white text-center z-1">
                                                 <div class="mb-3">Multipurpose landing pages for a variety of projects.</div>
