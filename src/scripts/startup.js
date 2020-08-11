@@ -1,6 +1,7 @@
 import $ from 'jquery';
 import "bootstrap";
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import AOS from 'aos';
 
 /*!
     * Start Bootstrap - SB UI Kit Pro v1.0.2 (https://shop.startbootstrap.com/product/sb-ui-kit-pro)
@@ -9,6 +10,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
     */
 (function ($) {
     "use strict";
+    AOS.init();
 
     // Enable Bootstrap tooltips via data-attributes globally
     $('[data-toggle="tooltip"]').tooltip();

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
-
-import $ from 'jquery';
+import HERO_IMAGE from '../assets/img/illustrations/undraw_progressive_app_m9ms.svg';
+import OTHER_IMAGE from '../assets/img/illustrations/undraw_operating_system_4lr6.svg';
 
 function Home() {
 
@@ -17,7 +17,7 @@ function Home() {
                                 <p class="page-header-text mb-5">Cloud-based solutions that enable your business. Pulling small-town America into the forefront of the 21st century through the power of software.</p>
                                 <a class="btn btn-teal btn-marketing rounded-pill lift lift-sm" href="index.html">View Pages<i class="fas fa-arrow-right ml-1"></i></a><a class="btn btn-link btn-marketing" href="https://docs.startbootstrap.com/sb-ui-kit-pro/quickstart">Documentation</a>
                             </div>
-                            <div class="col-lg-6 d-none d-lg-block" data-aos="fade-up" data-aos-delay="50"><img class="img-fluid" src="assets/img/drawkit/color/drawkit-content-man-color.svg" /></div>
+                            <div class="col-lg-6 d-none d-lg-block" data-aos="fade-up" data-aos-delay="50"> <img src={HERO_IMAGE} alt="Nerd Nibble Software" className="img-fluid" /></div>
                         </div>
                     </div>
                 </div>
@@ -53,7 +53,9 @@ function Home() {
                 <div class="container">
                     <div class="row align-items-center justify-content-center">
                         <div class="col-md-9 col-lg-6 order-1 order-lg-0" data-aos="fade-right">
-                            <div class="content-skewed content-skewed-right"><img class="content-skewed-item img-fluid shadow-lg rounded-lg" src="assets/img/screenshots/landing-portfolio.jpg" /></div>
+                            <div class="content-skewed content-skewed-right">
+                            <img src={OTHER_IMAGE} alt="Nerd Nibble Software" className="img-fluid" />
+                            </div>
                         </div>
                         <div class="col-lg-6 order-0 order-lg-1 mb-5 mb-lg-0" data-aos="fade-left">
                             <div class="mb-5">
