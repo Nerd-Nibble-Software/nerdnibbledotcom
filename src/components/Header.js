@@ -113,7 +113,7 @@ function Header() {
                             </div>
                         </li>
                     </ul>
-                    <a class="btn-teal btn rounded-pill px-4 ml-lg-4" href="https://shop.startbootstrap.com/sb-ui-kit-pro">Sign up / Login</a>
+                    <a class="btn-teal btn rounded-pill px-4 ml-lg-4" href="https://auth.nerdnibble.com/login?client_id=5liepcnck7jsc1haicof8vkn9m&response_type=code&scope=openid&redirect_uri=https://dashboard.nerdnibble.com">Sign up / Login</a>
                 </div>
             </div>
         </nav>
