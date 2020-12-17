@@ -15,7 +15,7 @@ function Home() {
                             <div class="col-lg-6" data-aos="fade-up">
                                 <h1 class="page-header-title">Serving Byte-sized Web Applications</h1>
                                 <p class="page-header-text mb-5">Cloud-based solutions that enable your business. Pulling small-town America into the forefront of the 21st century through the power of software.</p>
-                                <a class="btn btn-teal btn-marketing rounded-pill lift lift-sm" href="index.html">View Pages<i class="fas fa-arrow-right ml-1"></i></a><a class="btn btn-link btn-marketing" href="https://docs.startbootstrap.com/sb-ui-kit-pro/quickstart">Documentation</a>
+                                {/* <a class="btn btn-teal btn-marketing rounded-pill lift lift-sm" href="index.html">View Pages<i class="fas fa-arrow-right ml-1"></i></a><a class="btn btn-link btn-marketing" href="https://docs.startbootstrap.com/sb-ui-kit-pro/quickstart">Documentation</a> */}
                             </div>
                             <div class="col-lg-6 d-none d-lg-block" data-aos="fade-up" data-aos-delay="50"> <img src={HERO_IMAGE} alt="Nerd Nibble Software" className="img-fluid" /></div>
                         </div>
@@ -30,18 +30,18 @@ function Home() {
                     <div class="row text-center">
                         <div class="col-lg-4 mb-5 mb-lg-0">
                             <div class="icon-stack icon-stack-xl bg-gradient-primary-to-secondary text-white mb-4"><i class="fas fa-layer-group"></i></div>
-                            <h3>Built for developers</h3>
-                            <p class="mb-0">Our customizable, block-based build system makes creating your next project fast and easy!</p>
+                            <h3>Full Stack Solutions</h3>
+                            <p class="mb-0">Capable, end to end solutions that enable your business to connect to the online market.</p>
                         </div>
                         <div class="col-lg-4 mb-5 mb-lg-0">
                             <div class="icon-stack icon-stack-xl bg-gradient-primary-to-secondary text-white mb-4"><i class="fas fa-mobile-alt"></i></div>
-                            <h3>Modern responsive design</h3>
+                            <h3>Modern Responsive Design</h3>
                             <p class="mb-0">Featuring carefully crafted, mobile-first components, your end product will function beautifully on any device!</p>
                         </div>
                         <div class="col-lg-4">
                             <div class="icon-stack icon-stack-xl bg-gradient-primary-to-secondary text-white mb-4"><i class="fas fa-code"></i></div>
-                            <h3>Complete documentation</h3>
-                            <p class="mb-0">All of the layouts, page sections, components, and utilities are fully covered in this products docs.</p>
+                            <h3>Enterprise Capabilities</h3>
+                            <p class="mb-0">Products built with scalability in mind. Our cloud enabled products seemlessly scale to handle millions of customers with ease.</p>
                         </div>
                     </div>
                 </div>
@@ -54,11 +54,11 @@ function Home() {
                     <div class="row align-items-center justify-content-center">
                         <div class="col-md-9 col-lg-6 order-1 order-lg-0" data-aos="fade-right">
                             <div class="content-skewed content-skewed-right">
-                            <img src={OTHER_IMAGE} alt="Nerd Nibble Software" className="img-fluid" />
+                                <img src={OTHER_IMAGE} alt="Nerd Nibble Software" className="img-fluid" />
                             </div>
                         </div>
                         <div class="col-lg-6 order-0 order-lg-1 mb-5 mb-lg-0" data-aos="fade-left">
-                            <div class="mb-5">
+                            {/* <div class="mb-5">
                                 <h2>Here's What You Get</h2>
                                 <p class="lead">When you purchase this UI Kit, you get access to a robust suite of powerful tools and components to help you build your next landing page quickly and easily.</p>
                             </div>
@@ -85,13 +85,13 @@ function Home() {
                                     <p class="small mb-0">All of the sections on each page are modular, so you can drop them into an existing page, or start with a new one!</p>
                                     <a class="small text-arrow-icon" href="#!">Learn More<i class="fas fa-arrow-right ml-1"></i></a>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>
             </section>
             <hr class="m-0" />
-            <section class="bg-light pt-10">
+            {/* <section class="bg-light pt-10">
                 <div class="container">
                     <div class="text-center mb-5">
                         <h2>Simple Pricing</h2>
@@ -179,7 +179,7 @@ function Home() {
                 <div class="svg-border-rounded text-dark">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144.54 17.34" preserveAspectRatio="none" fill="currentColor"><path d="M144.54,17.34H0V0H144.54ZM0,0S32.36,17.34,72.27,17.34,144.54,0,144.54,0"></path></svg>
                 </div>
-            </section>
+            </section> */}
             <section class="bg-dark py-10">
                 <div class="container">
                     <div class="row my-10">
@@ -233,7 +233,7 @@ function Home() {
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144.54 17.34" preserveAspectRatio="none" fill="currentColor"><path d="M144.54,17.34H0V0H144.54ZM0,0S32.36,17.34,72.27,17.34,144.54,0,144.54,0"></path></svg>
                 </div>
             </section>
-            <section class="bg-white pt-10">
+            {/* <section class="bg-white pt-10">
                 <div class="container">
                     <div class="row mb-10">
                         <div class="col-lg-6 mb-5 mb-lg-0 divider-right" data-aos="fade">
@@ -303,7 +303,7 @@ function Home() {
                 <div class="svg-border-rounded text-light">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144.54 17.34" preserveAspectRatio="none" fill="currentColor"><path d="M144.54,17.34H0V0H144.54ZM0,0S32.36,17.34,72.27,17.34,144.54,0,144.54,0"></path></svg>
                 </div>
-            </section>
+            </section> */}
             <section class="bg-light py-10">
                 <div class="container mt-5">
                     <div class="row align-items-center">

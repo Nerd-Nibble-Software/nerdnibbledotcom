@@ -20,7 +20,7 @@ function Header() {
                     </svg>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto mr-lg-5">
+                    {/* <ul class="navbar-nav ml-auto mr-lg-5">
                         <li class="nav-item"><a class="nav-link" href="index.html">Home </a></li>
                         <li class="nav-item dropdown dropdown-xl no-caret">
                             <a class="nav-link dropdown-toggle" id="navbarDropdownDemos" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Landings<i class="fas fa-chevron-right dropdown-arrow"></i></a>
@@ -113,7 +113,7 @@ function Header() {
                             </div>
                         </li>
                     </ul>
-                    <a class="btn-teal btn rounded-pill px-4 ml-lg-4" href="https://auth.nerdnibble.com/login?client_id=5liepcnck7jsc1haicof8vkn9m&response_type=code&scope=openid&redirect_uri=https://dashboard.nerdnibble.com">Sign up / Login</a>
+                    <a class="btn-teal btn rounded-pill px-4 ml-lg-4" href="https://auth.nerdnibble.com/login?client_id=5liepcnck7jsc1haicof8vkn9m&response_type=code&scope=openid&redirect_uri=https://dashboard.nerdnibble.com">Sign up / Login</a> */}
                 </div>
             </div>
         </nav>
