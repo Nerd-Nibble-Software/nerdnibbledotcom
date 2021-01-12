@@ -9,7 +9,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import Home from './components/Home';
+import HomePage from './components/pages/HomePage';
 
 function App()  {
 
@@ -24,7 +24,7 @@ function App()  {
                 <div id="layoutDefault_content">
                   <main>
                     <Header id="navbar" key="navbar" route="/" />
-                    <Home />
+                    <HomePage />
                   </main>
                 </div>
                 <Footer />

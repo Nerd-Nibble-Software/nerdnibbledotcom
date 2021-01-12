@@ -1,28 +1,52 @@
-import React, { Component } from 'react';
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link
-} from "react-router-dom";
+import React, { Component } from "react";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 function Header() {
-
-    return (
-        <nav class="navbar navbar-marketing navbar-expand-lg bg-transparent navbar-dark fixed-top">
-            <div class="container">
-                <a class="navbar-brand text-white" href="index.html">Nerd Nibble Software</a>
-                <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <svg width="100" height="100" viewBox="0 0 100 100" transform="scale(2)">
-                        <path class="line line1" d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
-                        <path class="line line2" d="M 20,50 H 80" />
-                        <path class="line line3" d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
-                    </svg>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    {/* <ul class="navbar-nav ml-auto mr-lg-5">
-                        <li class="nav-item"><a class="nav-link" href="index.html">Home </a></li>
-                        <li class="nav-item dropdown dropdown-xl no-caret">
+  return (
+    <nav class="navbar navbar-marketing navbar-expand-lg bg-transparent navbar-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand text-white" href="index.html">
+          Nerd Nibble Software
+        </a>
+        <button
+          class="navbar-toggler d-lg-none"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <svg
+            width="100"
+            height="100"
+            viewBox="0 0 100 100"
+            transform="scale(2)"
+          >
+            <path
+              class="line line1"
+              d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058"
+            />
+            <path class="line line2" d="M 20,50 H 80" />
+            <path
+              class="line line3"
+              d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942"
+            />
+          </svg>
+        </button>
+        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul className="navbar-nav ml-auto mr-lg-5">
+            <li className="nav-item">
+              <Link className="nav-link" to="/">
+                Home
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/about">
+                About
+              </Link>
+            </li>
+            {/* <li class="nav-item dropdown dropdown-xl no-caret">
                             <a class="nav-link dropdown-toggle" id="navbarDropdownDemos" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Landings<i class="fas fa-chevron-right dropdown-arrow"></i></a>
                             <div class="dropdown-menu dropdown-menu-right animated--fade-in-up mr-lg-n15" aria-labelledby="navbarDropdownDemos">
                                 <div class="row no-gutters">
@@ -83,41 +107,58 @@ function Header() {
                                     </div>
                                 </div>
                             </div>
-                        </li>
-                        <li class="nav-item dropdown no-caret">
-                            <a class="nav-link dropdown-toggle" id="navbarDropdownDocs" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Documentation<i class="fas fa-chevron-right dropdown-arrow"></i></a>
-                            <div class="dropdown-menu dropdown-menu-right animated--fade-in-up" aria-labelledby="navbarDropdownDocs">
-                                <a class="dropdown-item py-3" href="https://docs.startbootstrap.com/sb-ui-kit-pro/quickstart" target="_blank"
-                                ><div class="icon-stack bg-primary-soft text-primary mr-4"><i class="fas fa-book-open"></i></div>
-                                    <div>
-                                        <div class="small text-gray-500">Documentation</div>
-                                Usage instructions and reference
-                            </div></a
-                                >
-                                <div class="dropdown-divider m-0"></div>
-                                <a class="dropdown-item py-3" href="https://docs.startbootstrap.com/sb-ui-kit-pro/components" target="_blank"
-                                ><div class="icon-stack bg-primary-soft text-primary mr-4"><i class="fas fa-code"></i></div>
-                                    <div>
-                                        <div class="small text-gray-500">Components</div>
-                                Code snippets and reference
-                            </div></a
-                                >
-                                <div class="dropdown-divider m-0"></div>
-                                <a class="dropdown-item py-3" href="https://docs.startbootstrap.com/sb-ui-kit-pro/changelog" target="_blank"
-                                ><div class="icon-stack bg-primary-soft text-primary mr-4"><i class="fas fa-file"></i></div>
-                                    <div>
-                                        <div class="small text-gray-500">Changelog</div>
-                                Updates and changes
-                            </div></a
-                                >
-                            </div>
-                        </li>
-                    </ul>
-                    <a class="btn-teal btn rounded-pill px-4 ml-lg-4" href="https://auth.nerdnibble.com/login?client_id=5liepcnck7jsc1haicof8vkn9m&response_type=code&scope=openid&redirect_uri=https://dashboard.nerdnibble.com">Sign up / Login</a> */}
-                </div>
-            </div>
-        </nav>
-    );
+                        </li> */}
+            <li class="nav-item dropdown no-caret">
+              <a
+                class="nav-link dropdown-toggle"
+                id="navbarDropdownDocs"
+                href="#"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Services<i class="fas fa-chevron-right dropdown-arrow"></i>
+              </a>
+              <div
+                class="dropdown-menu dropdown-menu-right animated--fade-in-up"
+                aria-labelledby="navbarDropdownDocs"
+              >
+                <Link class="dropdown-item py-3" to="/services/online-ordering">
+                  <div class="icon-stack bg-primary-soft text-primary mr-4">
+                    <i class="fas fa-utensils"></i>
+                  </div>
+                  <div>
+                    <div class="small text-gray-500">Online Ordering</div>
+                    Enable your customers to order food online
+                  </div>
+                </Link>
+                <div class="dropdown-divider m-0"></div>
+                <Link
+                  class="dropdown-item py-3"
+                  to="/services/custom-solutions"
+                >
+                  <div class="icon-stack bg-primary-soft text-primary mr-4">
+                    <i class="fas fa-code"></i>
+                  </div>
+                  <div>
+                    <div class="small text-gray-500">Custom Services</div>
+                    Solutions unique to your business needs
+                  </div>
+                </Link>
+              </div>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/contact">
+                Contact
+              </Link>
+            </li>
+          </ul>
+          {/* <a class="btn-teal btn rounded-pill px-4 ml-lg-4" href="https://auth.nerdnibble.com/login?client_id=5liepcnck7jsc1haicof8vkn9m&response_type=code&scope=openid&redirect_uri=https://dashboard.nerdnibble.com">Sign up / Login</a> */}
+        </div>
+      </div>
+    </nav>
+  );
 }
 
 export default Header;

@@ -1,97 +1,152 @@
-import React, { Component } from 'react';
-import { BrowserRouter as Router } from 'react-router-dom';
-import HERO_IMAGE from '../assets/img/illustrations/undraw_progressive_app_m9ms.svg';
-import OTHER_IMAGE from '../assets/img/illustrations/undraw_operating_system_4lr6.svg';
+import React, { Component } from "react";
+import { BrowserRouter as Router, Link } from "react-router-dom";
+import HERO_IMAGE from "../assets/img/illustrations/undraw_progressive_app_m9ms.svg";
+import OTHER_IMAGE from "../assets/img/illustrations/undraw_operating_system_4lr6.svg";
 
 function Home() {
-
-
-    return (
-        <>
-            <header class="page-header page-header-dark bg-gradient-primary-to-secondary">
-                <div class="page-header-content pt-10">
-                    <div class="container">
-                        <div class="row align-items-center">
-                            <div class="col-lg-6" data-aos="fade-up">
-                                <h1 class="page-header-title">Serving Byte-sized Web Applications</h1>
-                                <p class="page-header-text mb-5">Cloud-based solutions that enable your business. Pulling small-town America into the forefront of the 21st century through the power of software.</p>
-                                {/* <a class="btn btn-teal btn-marketing rounded-pill lift lift-sm" href="index.html">View Pages<i class="fas fa-arrow-right ml-1"></i></a><a class="btn btn-link btn-marketing" href="https://docs.startbootstrap.com/sb-ui-kit-pro/quickstart">Documentation</a> */}
-                            </div>
-                            <div class="col-lg-6 d-none d-lg-block" data-aos="fade-up" data-aos-delay="50"> <img src={HERO_IMAGE} alt="Nerd Nibble Software" className="img-fluid" /></div>
-                        </div>
-                    </div>
+  return (
+    <>
+      <header class="page-header page-header-dark bg-gradient-primary-to-secondary">
+        <div class="page-header-content pt-10">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-lg-6" data-aos="fade-up">
+                <h1 class="page-header-title">
+                  Serving Byte-sized Web Applications
+                </h1>
+                <p class="page-header-text mb-5">
+                  Cloud-based solutions that enable your business. Pulling
+                  small-town America into the forefront of the 21st century
+                  through the power of software.
+                </p>
+                {/* <a class="btn btn-teal btn-marketing rounded-pill lift lift-sm" href="index.html">View Pages<i class="fas fa-arrow-right ml-1"></i></a><a class="btn btn-link btn-marketing" href="https://docs.startbootstrap.com/sb-ui-kit-pro/quickstart">Documentation</a> */}
+              </div>
+              <div
+                class="col-lg-6 d-none d-lg-block"
+                data-aos="fade-up"
+                data-aos-delay="50"
+              >
+                {" "}
+                <img
+                  src={HERO_IMAGE}
+                  alt="Nerd Nibble Software"
+                  className="img-fluid"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="svg-border-rounded text-white">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 144.54 17.34"
+            preserveAspectRatio="none"
+            fill="currentColor"
+          >
+            <path d="M144.54,17.34H0V0H144.54ZM0,0S32.36,17.34,72.27,17.34,144.54,0,144.54,0"></path>
+          </svg>
+        </div>
+      </header>
+      <section class="bg-white py-10">
+        <div class="container">
+          <div class="row text-center">
+            <div class="col-lg-4">
+              <div class="icon-stack icon-stack-xl bg-gradient-primary-to-secondary text-white mb-4">
+                <i class="fas fa-code"></i>
+              </div>
+              <h3>Endless Capabilities</h3>
+              <p class="mb-0">
+                Choose from our existing cloud enabled services or create your
+                own software solution.
+              </p>
+            </div>
+            <div class="col-lg-4 mb-5 mb-lg-0">
+              <div class="icon-stack icon-stack-xl bg-gradient-primary-to-secondary text-white mb-4">
+                <i class="fas fa-layer-group"></i>
+              </div>
+              <h3>Full Stack Solutions</h3>
+              <p class="mb-0">
+                Capable, end to end solutions that enable your business to
+                connect to the online market.
+              </p>
+            </div>
+            <div class="col-lg-4 mb-5 mb-lg-0">
+              <div class="icon-stack icon-stack-xl bg-gradient-primary-to-secondary text-white mb-4">
+                <i class="fas fa-mobile-alt"></i>
+              </div>
+              <h3>Modern Responsive Design</h3>
+              <p class="mb-0">
+                Carefully crafted mobile-first software for your employees or
+                customers to access with ease.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="svg-border-rounded text-light">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 144.54 17.34"
+            preserveAspectRatio="none"
+            fill="currentColor"
+          >
+            <path d="M144.54,17.34H0V0H144.54ZM0,0S32.36,17.34,72.27,17.34,144.54,0,144.54,0"></path>
+          </svg>
+        </div>
+      </section>
+      <section class="bg-light py-10">
+        <div class="container">
+          <div class="row align-items-center justify-content-center">
+            <div
+              class="col-md-9 col-lg-6 order-1 order-lg-0"
+              data-aos="fade-right"
+            >
+              <div class="content-skewed content-skewed-right">
+                <img
+                  src={OTHER_IMAGE}
+                  alt="Nerd Nibble Software"
+                  className="img-fluid"
+                />
+              </div>
+            </div>
+            <div
+              class="col-lg-6 order-0 order-lg-1 mb-5 mb-lg-0"
+              data-aos="fade-left"
+            >
+              <div class="mb-5">
+                <h2>Here's What We Offer</h2>
+                <p class="lead">
+                  Choose from our existing cloud enabled services or create your
+                  own software solution.
+                </p>
+              </div>
+              <div class="row">
+                <div class="col-md-6 mb-4">
+                  <h6>Online Ordering</h6>
+                  <p class="mb-2 small">
+                    We've crafted an online ordering solution that works for
+                    restraunts just like yours.
+                  </p>
+                  <Link className="small text-arrow-icon" to="/services/online-ordering">
+                    Learn More<i class="fas fa-arrow-right ml-1"></i>
+                  </Link>
                 </div>
-                <div class="svg-border-rounded text-white">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144.54 17.34" preserveAspectRatio="none" fill="currentColor"><path d="M144.54,17.34H0V0H144.54ZM0,0S32.36,17.34,72.27,17.34,144.54,0,144.54,0"></path></svg>
+                <div class="col-md-6 mb-4">
+                  <h6>Custom Solutions</h6>
+                  <p class="mb-2 small mb-0">
+                    Help your customers or employees by creating a custom
+                    software solution that fits their needs.
+                  </p>
+                  <Link className="small text-arrow-icon" to="/services/custom-solutions">
+                    Learn More<i class="fas fa-arrow-right ml-1"></i>
+                  </Link>
                 </div>
-            </header>
-            <section class="bg-white py-10">
-                <div class="container">
-                    <div class="row text-center">
-                        <div class="col-lg-4 mb-5 mb-lg-0">
-                            <div class="icon-stack icon-stack-xl bg-gradient-primary-to-secondary text-white mb-4"><i class="fas fa-layer-group"></i></div>
-                            <h3>Full Stack Solutions</h3>
-                            <p class="mb-0">Capable, end to end solutions that enable your business to connect to the online market.</p>
-                        </div>
-                        <div class="col-lg-4 mb-5 mb-lg-0">
-                            <div class="icon-stack icon-stack-xl bg-gradient-primary-to-secondary text-white mb-4"><i class="fas fa-mobile-alt"></i></div>
-                            <h3>Modern Responsive Design</h3>
-                            <p class="mb-0">Featuring carefully crafted, mobile-first components, your end product will function beautifully on any device!</p>
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="icon-stack icon-stack-xl bg-gradient-primary-to-secondary text-white mb-4"><i class="fas fa-code"></i></div>
-                            <h3>Enterprise Capabilities</h3>
-                            <p class="mb-0">Products built with scalability in mind. Our cloud enabled products seemlessly scale to handle millions of customers with ease.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="svg-border-rounded text-light">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144.54 17.34" preserveAspectRatio="none" fill="currentColor"><path d="M144.54,17.34H0V0H144.54ZM0,0S32.36,17.34,72.27,17.34,144.54,0,144.54,0"></path></svg>
-                </div>
-            </section>
-            <section class="bg-light py-10">
-                <div class="container">
-                    <div class="row align-items-center justify-content-center">
-                        <div class="col-md-9 col-lg-6 order-1 order-lg-0" data-aos="fade-right">
-                            <div class="content-skewed content-skewed-right">
-                                <img src={OTHER_IMAGE} alt="Nerd Nibble Software" className="img-fluid" />
-                            </div>
-                        </div>
-                        <div class="col-lg-6 order-0 order-lg-1 mb-5 mb-lg-0" data-aos="fade-left">
-                            {/* <div class="mb-5">
-                                <h2>Here's What You Get</h2>
-                                <p class="lead">When you purchase this UI Kit, you get access to a robust suite of powerful tools and components to help you build your next landing page quickly and easily.</p>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6 mb-4">
-                                    <h6>Landing Pages</h6>
-                                    <p class="mb-2 small">We've crafted landing page examples for many popular business and product types.</p>
-                                    <a class="small text-arrow-icon" href="#!">Learn More<i class="fas fa-arrow-right ml-1"></i></a>
-                                </div>
-                                <div class="col-md-6 mb-4">
-                                    <h6>Page Examples</h6>
-                                    <p class="mb-2 small mb-0">Use our pre-built page examples to quickly create inner pages to your website.</p>
-                                    <a class="small text-arrow-icon" href="#!">Learn More<i class="fas fa-arrow-right ml-1"></i></a>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6 mb-4">
-                                    <h6>Layouts</h6>
-                                    <p class="mb-2 small mb-0">Our flex box based layout options make your site beautifully responsive and adaptable to any device.</p>
-                                    <a class="small text-arrow-icon" href="#!">Learn More<i class="fas fa-arrow-right ml-1"></i></a>
-                                </div>
-                                <div class="col-md-6 mb-4">
-                                    <h6>Modular Sections</h6>
-                                    <p class="small mb-0">All of the sections on each page are modular, so you can drop them into an existing page, or start with a new one!</p>
-                                    <a class="small text-arrow-icon" href="#!">Learn More<i class="fas fa-arrow-right ml-1"></i></a>
-                                </div>
-                            </div> */}
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <hr class="m-0" />
-            {/* <section class="bg-light pt-10">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr class="m-0" />
+      {/* <section class="bg-light pt-10">
                 <div class="container">
                     <div class="text-center mb-5">
                         <h2>Simple Pricing</h2>
@@ -180,60 +235,103 @@ function Home() {
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144.54 17.34" preserveAspectRatio="none" fill="currentColor"><path d="M144.54,17.34H0V0H144.54ZM0,0S32.36,17.34,72.27,17.34,144.54,0,144.54,0"></path></svg>
                 </div>
             </section> */}
-            <section class="bg-dark py-10">
-                <div class="container">
-                    <div class="row my-10">
-                        <div class="col-lg-6 mb-5">
-                            <div class="d-flex h-100">
-                                <div class="icon-stack flex-shrink-0 bg-teal text-white"><i class="fas fa-question"></i></div>
-                                <div class="ml-4">
-                                    <h5 class="text-white">Can I use SB UI Kit Pro for clients?</h5>
-                                    <p class="text-white-50">Yes! You can use SB UI Kit Pro for client projects. There are two types of licenses available depending on what you're trying to do.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 mb-5">
-                            <div class="d-flex h-100">
-                                <div class="icon-stack flex-shrink-0 bg-teal text-white"><i class="fas fa-question"></i></div>
-                                <div class="ml-4">
-                                    <h5 class="text-white">Is there a money back guarantee?</h5>
-                                    <p class="text-white-50">Yes! If you're not happy with your product then we will give you your money back.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 mb-5 mb-lg-0">
-                            <div class="d-flex h-100">
-                                <div class="icon-stack flex-shrink-0 bg-teal text-white"><i class="fas fa-question"></i></div>
-                                <div class="ml-4">
-                                    <h5 class="text-white">Do I get free updates?</h5>
-                                    <p class="text-white-50">All of Start Bootstrap's premium products will come with updates for feature additions, bugfixes, and other small updates.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="d-flex h-100">
-                                <div class="icon-stack flex-shrink-0 bg-teal text-white"><i class="fas fa-question"></i></div>
-                                <div class="ml-4">
-                                    <h5 class="text-white">Does it work front end frameworks?</h5>
-                                    <p class="text-white-50">When purchasing an HTML based product from Start Bootstrap, you get the HTML and CSS which you can bring into any framework.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row justify-content-center text-center">
-                        <div class="col-lg-8">
-                            <div class="badge badge-transparent-light badge-pill badge-marketing mb-4">Get Started</div>
-                            <h2 class="text-white">Save time with SB UI Kit Pro</h2>
-                            <p class="lead text-white-50 mb-5">Start Bootstrap's premium UI Kit beautifully and intuitively extends the Bootstrap framework making it easy to build your next project!</p>
-                            <a class="btn btn-teal btn-marketing rounded-pill lift lift-sm" href="#!">Buy Now!</a>
-                        </div>
-                    </div>
+      <section class="bg-dark py-10">
+        <div class="container">
+          <div class="row my-10">
+            <div class="col-lg-6 mb-5">
+              <div class="d-flex h-100">
+                <div class="icon-stack flex-shrink-0 bg-teal text-white">
+                  <i class="fas fa-question"></i>
                 </div>
-                <div class="svg-border-rounded text-white">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144.54 17.34" preserveAspectRatio="none" fill="currentColor"><path d="M144.54,17.34H0V0H144.54ZM0,0S32.36,17.34,72.27,17.34,144.54,0,144.54,0"></path></svg>
+                <div class="ml-4">
+                  <h5 class="text-white">
+                    Can I use SB UI Kit Pro for clients?
+                  </h5>
+                  <p class="text-white-50">
+                    Yes! You can use SB UI Kit Pro for client projects. There
+                    are two types of licenses available depending on what you're
+                    trying to do.
+                  </p>
                 </div>
-            </section>
-            {/* <section class="bg-white pt-10">
+              </div>
+            </div>
+            <div class="col-lg-6 mb-5">
+              <div class="d-flex h-100">
+                <div class="icon-stack flex-shrink-0 bg-teal text-white">
+                  <i class="fas fa-question"></i>
+                </div>
+                <div class="ml-4">
+                  <h5 class="text-white">Is there a money back guarantee?</h5>
+                  <p class="text-white-50">
+                    Yes! If you're not happy with your product then we will give
+                    you your money back.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 mb-5 mb-lg-0">
+              <div class="d-flex h-100">
+                <div class="icon-stack flex-shrink-0 bg-teal text-white">
+                  <i class="fas fa-question"></i>
+                </div>
+                <div class="ml-4">
+                  <h5 class="text-white">Do I get free updates?</h5>
+                  <p class="text-white-50">
+                    All of Start Bootstrap's premium products will come with
+                    updates for feature additions, bugfixes, and other small
+                    updates.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="d-flex h-100">
+                <div class="icon-stack flex-shrink-0 bg-teal text-white">
+                  <i class="fas fa-question"></i>
+                </div>
+                <div class="ml-4">
+                  <h5 class="text-white">Does it work front end frameworks?</h5>
+                  <p class="text-white-50">
+                    When purchasing an HTML based product from Start Bootstrap,
+                    you get the HTML and CSS which you can bring into any
+                    framework.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-center text-center">
+            <div class="col-lg-8">
+              <div class="badge badge-transparent-light badge-pill badge-marketing mb-4">
+                Get Started
+              </div>
+              <h2 class="text-white">Save time with SB UI Kit Pro</h2>
+              <p class="lead text-white-50 mb-5">
+                Start Bootstrap's premium UI Kit beautifully and intuitively
+                extends the Bootstrap framework making it easy to build your
+                next project!
+              </p>
+              <a
+                class="btn btn-teal btn-marketing rounded-pill lift lift-sm"
+                href="#!"
+              >
+                Buy Now!
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="svg-border-rounded text-white">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 144.54 17.34"
+            preserveAspectRatio="none"
+            fill="currentColor"
+          >
+            <path d="M144.54,17.34H0V0H144.54ZM0,0S32.36,17.34,72.27,17.34,144.54,0,144.54,0"></path>
+          </svg>
+        </div>
+      </section>
+      {/* <section class="bg-white pt-10">
                 <div class="container">
                     <div class="row mb-10">
                         <div class="col-lg-6 mb-5 mb-lg-0 divider-right" data-aos="fade">
@@ -304,20 +402,35 @@ function Home() {
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144.54 17.34" preserveAspectRatio="none" fill="currentColor"><path d="M144.54,17.34H0V0H144.54ZM0,0S32.36,17.34,72.27,17.34,144.54,0,144.54,0"></path></svg>
                 </div>
             </section> */}
-            <section class="bg-light py-10">
-                <div class="container mt-5">
-                    <div class="row align-items-center">
-                        <div class="col-lg-6">
-                            <h4>Ready to get started?</h4>
-                            <p class="lead mb-5 mb-lg-0 text-gray-500">Get in touch or create an account.</p>
-                        </div>
-                        <div class="col-lg-6 text-lg-right"><a class="btn btn-primary btn-marketing rounded-pill mr-3 my-2 lift lift-sm" href="#!">Contact Sales</a><a class="btn btn-white btn-marketing rounded-pill my-2 lift lift-sm" href="#!">Create Account</a></div>
-                    </div>
-                </div>
-            </section>
-            <hr class="m-0" />
-        </>
-    );
+      <section class="bg-light py-10">
+        <div class="container mt-5">
+          <div class="row align-items-center">
+            <div class="col-lg-6">
+              <h4>Ready to get started?</h4>
+              <p class="lead mb-5 mb-lg-0 text-gray-500">
+                Get in touch or create an account.
+              </p>
+            </div>
+            <div class="col-lg-6 text-lg-right">
+              <a
+                class="btn btn-primary btn-marketing rounded-pill mr-3 my-2 lift lift-sm"
+                href="#!"
+              >
+                Contact Sales
+              </a>
+              <a
+                class="btn btn-white btn-marketing rounded-pill my-2 lift lift-sm"
+                href="#!"
+              >
+                Create Account
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr class="m-0" />
+    </>
+  );
 }
 
 export default Home;
