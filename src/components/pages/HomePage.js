@@ -11,9 +11,7 @@ function HomePage() {
           <div class="container">
             <div class="row align-items-center">
               <div class="col-lg-6" data-aos="fade-up">
-                <h1 class="page-header-title">
-                  Serving <em>byte</em>-Sized Software
-                </h1>
+                <h1 class="page-header-title">Nerd Nibble Software</h1>
                 <p class="page-header-text mb-5">
                   Cloud-based solutions that enable your business. Pulling
                   small-town America into the forefront of the 21st century

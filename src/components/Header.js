@@ -1,13 +1,17 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import logo from "../logo-white.png";
 
 function Header() {
   return (
     <nav class="navbar navbar-marketing navbar-expand-lg bg-transparent navbar-dark fixed-top">
       <div class="container">
-        <a class="navbar-brand text-white" href="index.html">
-          Nerd Nibble Software
-        </a>
+        <Link to="/" alt="Nerd Nibble Software">
+          <div class="navbar-brand text-white">
+            <img src={logo} style={{ height: 60 }} />
+            {/* <span className="ml-2">Nerd Nibble Software</span> */}
+          </div>
+        </Link>
         <button
           class="navbar-toggler d-lg-none"
           type="button"
