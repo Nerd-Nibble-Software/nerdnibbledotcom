@@ -5,14 +5,12 @@ function AboutPage() {
     <>
       <header class="page-header page-header-dark bg-gradient-primary-to-secondary">
         <div class="page-header-content pt-10">
-          <div class="container text-center">
-            <div class="row justify-content-center">
-              <div class="col-lg-8">
-                <h1 class="page-header-title mb-3">About our company</h1>
-                <p class="page-header-text">
-                  Our company culture, and how we do things
-                </p>
-              </div>
+          <div class="d-flex justify-content-center">
+            <div className="text-center">
+              <h1 class="page-header-title mb-3">About our company</h1>
+              <p class="page-header-text">
+                Our company culture, and how we do things
+              </p>
             </div>
           </div>
         </div>
@@ -30,7 +28,7 @@ function AboutPage() {
       <section class="bg-white py-10">
         <div class="container">
           <div class="row justify-content-center">
-            <div class="col-lg-10">
+            <div class="col-lg-11">
               <div className="row">
                 <div className="col-lg-6">
                   <h4 class="mb-4">
