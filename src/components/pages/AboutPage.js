@@ -88,73 +88,43 @@ function AboutPage() {
                 </div>
               </div>
               <hr class="my-5" />
+            </div>
+            <div className="col-lg-4">
               <h4 class="mb-4">
                 <div class="icon-stack bg-primary text-white mr-2">
-                  <i data-feather="arrow-right"></i>
+                  <i className="fas fa-globe-americas"></i>
                 </div>
-                Move with urgency and focus
+                Michigan Grown Company
               </h4>
-              <p class="lead">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
-                dolorem suscipit veniam excepturi soluta ducimus tempora quasi,
-                itaque odit libero, eos in dolore natus, ipsam consectetur
-                voluptate nulla provident aliquam?
+              <p class="lead">The company started in the Detroit metro area.</p>
+              <p>
+                Two software engineers moved to the area after receiving job
+                offers from Ford Motor Company. Coming from small-town roots,
+                they had a passion for helping small-town businesses.
               </p>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
-                laboriosam consequuntur iusto vero consequatur beatae, tempore
-                voluptatem rerum sit facilis aut ea optio eaque quaerat, libero
-                recusandae soluta molestiae veniam.
+                We serve many clients in the Michigan area. However, we are a
+                remote company so we are open for business for everyone in the
+                United States.
               </p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae,
-                ut! Ut ipsum debitis numquam. Perferendis, laudantium! Itaque ab
-                velit eaque magnam quis quam libero saepe nobis culpa. Vitae,
-                dignissimos iusto.
-              </p>
-              <div class="card bg-light shadow-none">
-                <div class="card-body">
-                  <h6>Questions you should ask yourself</h6>
-                  <ul class="mb-0">
-                    <li class="text-italic">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit?
-                    </li>
-                    <li class="text-italic">
-                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                      Quas nobis illum nam?
-                    </li>
-                  </ul>
-                </div>
+            </div>
+            <div className="col-lg-6">
+              <div className="w-100 float-left card">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2205446.6033288045!2d-85.88518494554827!3d43.62002104002838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4d4caa3dc7ca0411%3A0x97dd48597a62c9b3!2sMichigan!5e1!3m2!1sen!2sus!4v1610643972672!5m2!1sen!2sus"
+                  height={350}
+                  frameborder={0}
+                  style={{ border: 0 }}
+                  className=""
+                  allowfullscreen
+                  aria-hidden="false"
+                  tabindex="0"
+                ></iframe>
               </div>
-              <hr class="my-5" />
-              <h4>Feedback</h4>
-              <p class="lead">
-                In the spirit of thinking rigorously, we’d love your open and
-                honest feedback on this guide.{" "}
-                <a href="#!">Let us know what you think</a>.
-              </p>
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum
-                culpa optio nihil id distinctio excepturi dignissimos, iure
-                totam minima, natus ducimus.
-              </p>
             </div>
           </div>
         </div>
       </section>
-
-      <div className="w-100 float-left card">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2205446.6033288045!2d-85.88518494554827!3d43.62002104002838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4d4caa3dc7ca0411%3A0x97dd48597a62c9b3!2sMichigan!5e1!3m2!1sen!2sus!4v1610643972672!5m2!1sen!2sus"
-          height={450}
-          frameborder={0}
-          style={{ border: 0 }}
-          className=""
-          allowfullscreen
-          aria-hidden="false"
-          tabindex="0"
-        ></iframe>
-      </div>
     </>
   );
 }
