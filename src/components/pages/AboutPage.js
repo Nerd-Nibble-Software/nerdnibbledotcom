@@ -89,7 +89,7 @@ function AboutPage() {
               </div>
               <hr class="my-5" />
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-5">
               <h4 class="mb-4">
                 <div class="icon-stack bg-primary text-white mr-2">
                   <i className="fas fa-globe-americas"></i>
@@ -108,7 +108,7 @@ function AboutPage() {
                 United States.
               </p>
             </div>
-            <div className="col-lg-6">
+            <div className="col-lg-5">
               <div className="w-100 float-left card">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2205446.6033288045!2d-85.88518494554827!3d43.62002104002838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4d4caa3dc7ca0411%3A0x97dd48597a62c9b3!2sMichigan!5e1!3m2!1sen!2sus!4v1610643972672!5m2!1sen!2sus"
