@@ -5,7 +5,7 @@ function AboutPage() {
     <>
       <header class="page-header page-header-dark bg-gradient-primary-to-secondary">
         <div class="page-header-content pt-10">
-          <div class="d-flex justify-content-center">
+          <div class="container d-flex justify-content-center">
             <div className="text-center">
               <h1 class="page-header-title mb-3">About our company</h1>
               <p class="page-header-text">

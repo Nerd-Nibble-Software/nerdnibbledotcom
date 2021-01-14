@@ -7,12 +7,14 @@ import {
   useLocation,
 } from "react-router-dom";
 import logo from "../logo-white.png";
+import $ from "jquery";
 
 function Header() {
   const location = useLocation();
 
   useEffect(() => {
     window.scrollTo(0, 0);
+    $(".navbar-collapse").collapse("hide");
   }, [location]);
 
   return (
