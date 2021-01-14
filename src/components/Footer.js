@@ -40,7 +40,7 @@ function Footer() {
       </section>
       <hr class="m-0" />
       <div id="layoutDefault_footer">
-        <footer class="footer py-5 mt-auto bg-light footer-light">
+        <footer class="footer py-5 mt-auto bg-dark footer-dark">
           <div class="container">
             {/* <div class="row">
             <div class="col-lg-3">
