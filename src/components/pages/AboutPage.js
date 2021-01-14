@@ -104,7 +104,7 @@ function AboutPage() {
               </p>
               <p>
                 We serve many clients in the Michigan area. However, we are a
-                remote company so we are open for business for everyone in the
+                remote company and are open for business for everyone in the
                 United States.
               </p>
             </div>
