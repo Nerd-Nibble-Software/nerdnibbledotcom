@@ -26,9 +26,9 @@ function AboutPage() {
         </div>
       </header>
       <section class="bg-white py-10">
-        <div class="container">
+        <div class="container px-3">
           <div class="row justify-content-center">
-            <div class="col-lg-11">
+            <div class="col-lg-10">
               <div className="row">
                 <div className="col-lg-6">
                   <h4 class="mb-4">
