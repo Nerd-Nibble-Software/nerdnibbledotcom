@@ -1,8 +1,20 @@
-import React, { Component } from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import React, { Component, useEffect } from "react";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+  useLocation,
+} from "react-router-dom";
 import logo from "../logo-white.png";
 
 function Header() {
+  const location = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
+
   return (
     <nav class="navbar navbar-marketing navbar-expand-lg bg-transparent navbar-dark fixed-top">
       <div class="container">
