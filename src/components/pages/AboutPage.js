@@ -69,7 +69,7 @@ function AboutPage() {
 
               <hr class="my-5" />
               <h4 class="mb-4">
-                <div class="icon-stack bg-primary text-white mr-2">
+                <div class="icon-stack bg-success text-white mr-2">
                   <i class="fas fa-store"></i>
                 </div>
                 What we do best
@@ -115,8 +115,8 @@ function AboutPage() {
               </div>
               <hr class="my-5" />
               <h4 class="mb-4">
-                <div class="icon-stack bg-primary text-white mr-2">
-                  <i class="fas fa-store"></i>
+                <div class="icon-stack bg-secondary text-white mr-2">
+                  <i class="fas fa-code"></i>
                 </div>
                 This is how we do it
               </h4>

@@ -6,8 +6,8 @@ import OTHER_IMAGE from "../assets/img/illustrations/undraw_operating_system_4lr
 function Home() {
   return (
     <>
-      <header class="page-header page-header-dark bg-gradient-primary-to-secondary">
-        <div class="page-header-content pt-10">
+      <header class="page-header page-header-dark bg-gradient-primary-to-secondary pb-5">
+        <div class="page-header-content">
           <div class="container">
             <div class="row align-items-center">
               <div class="col-lg-6" data-aos="fade-up">

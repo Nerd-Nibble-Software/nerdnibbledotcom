@@ -1,15 +1,21 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
+
+import LOGISTICS_IMAGE from "../../../../assets/img/illustrations/undraw_logistics_x4dc.svg";
+import ECCOMERCE_IMAGE from "../../../../assets/img/illustrations/undraw_add_to_cart_vkjp.svg";
+import WAITING_IMAGE from "../../../../assets/img/illustrations/undraw_Queue_j6ij.svg";
 
 function CustomSolutionsPage() {
   return (
     <>
-      <header class="page-header page-header-dark bg-gradient-primary-to-secondary">
-        <div class="page-header-content pt-10">
+      <header class="page-header page-header-dark bg-gradient-primary-to-secondary pb-5">
+        <div class="page-header-content">
           <div class="container d-flex justify-content-center">
             <div className="text-center">
               <h1 class="page-header-title mb-3">Custom Software Solutions</h1>
               <p class="page-header-text">
-                We can create software services that work for your specific business needs
+                We can create software services that work for your specific
+                business needs
               </p>
             </div>
           </div>
@@ -26,114 +32,212 @@ function CustomSolutionsPage() {
         </div>
       </header>
       <section class="bg-white py-10">
-        <div class="container px-3">
-          <div class="row justify-content-center">
-            <div class="col-lg-10">
-              <div className="row">
-                <div className="col-lg-6">
-                  <h4 class="mb-4">
-                    <div class="icon-stack bg-primary text-white mr-2">
-                      <i className="fas fa-globe-americas"></i>
-                    </div>
-                    A Michigan based company
-                  </h4>
-                  <p class="lead">
-                    The company started in the Detroit metro area.
+        <div class="container">
+          <div class="row text-center">
+            <div class="col-lg-4">
+              <div class="icon-stack icon-stack-xl bg-gradient-primary-to-secondary text-white mb-4">
+                <i class="fas fa-code"></i>
+              </div>
+              <h3>Endless Capabilities</h3>
+              <p class="mb-0">
+                Choose from our existing cloud enabled services or create your
+                own software solution.
+              </p>
+            </div>
+            <div class="col-lg-4 mb-5 mb-lg-0">
+              <div class="icon-stack icon-stack-xl bg-gradient-primary-to-secondary text-white mb-4">
+                <i class="fas fa-layer-group"></i>
+              </div>
+              <h3>Full Stack Solutions</h3>
+              <p class="mb-0">
+                Capable, end to end solutions that enable your business to
+                connect to the online market.
+              </p>
+            </div>
+            <div class="col-lg-4 mb-5 mb-lg-0">
+              <div class="icon-stack icon-stack-xl bg-gradient-primary-to-secondary text-white mb-4">
+                <i class="fas fa-mobile-alt"></i>
+              </div>
+              <h3>Modern Responsive Design</h3>
+              <p class="mb-0">
+                Carefully crafted mobile-first software for your employees or
+                customers to access with ease.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="svg-border-rounded text-light b-none">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 144.54 17.34"
+            preserveAspectRatio="none"
+            fill="currentColor"
+          >
+            <path d="M144.54,17.34H0V0H144.54ZM0,0S32.36,17.34,72.27,17.34,144.54,0,144.54,0"></path>
+          </svg>
+        </div>
+      </section>
+      <section class="bg-light py-10">
+        <div class="container">
+          <div class="row align-items-center justify-content-center">
+            <div
+              class="col-md-9 col-lg-6 order-1 order-lg-0"
+              data-aos="fade-right"
+            >
+              <div class="content-skewed content-skewed-right">
+                <img
+                  src={""}
+                  alt="Nerd Nibble Software"
+                  className="img-fluid"
+                />
+              </div>
+            </div>
+            <div
+              class="col-lg-6 order-0 order-lg-1 mb-5 mb-lg-0"
+              data-aos="fade-left"
+            >
+              <div class="mb-5">
+                <h2>Here's What We Offer</h2>
+                <p class="lead">
+                  Choose from our existing cloud enabled services or create your
+                  own software solution.
+                </p>
+              </div>
+              <div class="row">
+                <div class="col-md-6 mb-4">
+                  <h6>Online Ordering</h6>
+                  <p class="mb-2 small">
+                    We've crafted an online ordering solution that works for
+                    restraunts just like yours.
                   </p>
-                  <p>
-                    Two software engineers moved to the area after receiving job
-                    offers from Ford Motor Company. Coming from small-town
-                    roots, they had a passion for helping small-town businesses.
-                  </p>
-                  <p>
-                    We serve many clients in the Michigan area. However, we are
-                    a remote company and are open for business for everyone in
-                    the United States.
-                  </p>
+                  <Link
+                    className="small text-arrow-icon"
+                    to="/services/online-ordering"
+                  >
+                    Learn More<i class="fas fa-arrow-right ml-1"></i>
+                  </Link>
                 </div>
-                <div className="col-lg-6">
-                  <div className="w-100 float-left card">
-                    <iframe
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2205446.6033288045!2d-85.88518494554827!3d43.62002104002838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4d4caa3dc7ca0411%3A0x97dd48597a62c9b3!2sMichigan!5e1!3m2!1sen!2sus!4v1610643972672!5m2!1sen!2sus"
-                      height={350}
-                      frameborder={0}
-                      style={{ border: 0 }}
-                      className=""
-                      allowfullscreen
-                      aria-hidden="false"
-                      tabindex="0"
-                    ></iframe>
-                  </div>
+                <div class="col-md-6 mb-4">
+                  <h6>Custom Solutions</h6>
+                  <p class="mb-2 small mb-0">
+                    Help your customers or employees by creating a custom
+                    software solution that fits their needs.
+                  </p>
+                  <Link
+                    className="small text-arrow-icon"
+                    to="/services/custom-solutions"
+                  >
+                    Learn More<i class="fas fa-arrow-right ml-1"></i>
+                  </Link>
                 </div>
               </div>
-
-              <hr class="my-5" />
-              <h4 class="mb-4">
-                <div class="icon-stack bg-primary text-white mr-2">
-                  <i class="fas fa-store"></i>
-                </div>
-                What we do best
-              </h4>
-              <p className="lead">
-                In short, we provide practical cloud-based software services.
-              </p>
-              <p>
-                We create online platforms that enable you to accept online
-                payments. This includes online ordering and e-commerce. If your
-                business does not have an online presence or wants to improve
-                their website, that is also something we offer.
-              </p>
-              <p>
-                Ultimately, we make tools and services that help small
-                businesses run better. Scheduling, inventory management, and
-                online payments. We want to launch your business into the future
-                with our practical software solutions.
-              </p>
-
-              <div class="card bg-light shadow-none">
+            </div>
+          </div>
+        </div>
+        <div class="svg-border-rounded text-dark">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 144.54 17.34"
+            preserveAspectRatio="none"
+            fill="currentColor"
+          >
+            <path d="M144.54,17.34H0V0H144.54ZM0,0S32.36,17.34,72.27,17.34,144.54,0,144.54,0"></path>
+          </svg>
+        </div>
+      </section>
+      <section class="bg-dark py-5">
+        <div class="container text-center">
+          <h2 class="text-white">Our Portfolio</h2>
+          <p class="lead text-white-50 mb-5">
+            A showcase of project's we've worked on in the past year
+          </p>
+          <div class="row">
+            <div class="col-md-6 col-xl-4 mb-5 mt-n5" data-aos="fade">
+              <a
+                class="card card-portfolio h-100"
+                href="https://www.thelewistonlodge.com/"
+                target="_blank"
+              >
+                <img
+                  class="card-img-top"
+                  src={ECCOMERCE_IMAGE}
+                  alt="Restaurant E-Commerce Website"
+                />
                 <div class="card-body">
-                  <h6>Questions you should ask yourself</h6>
-                  <ul class="mb-0">
-                    <li class="text-italic">
-                      What would make my customers happy?
-                    </li>
-                    <li class="text-italic">
-                      How can I get more business from the younger generations?
-                    </li>
-                    <li class="text-italic">
-                      What can be done to improve the reach of my business?
-                    </li>
-                    <li class="text-italic">Where can my business improve?</li>
-                    <li class="text-italic">
-                      Is there any tasks that could be automated?
-                    </li>
-                    <li class="text-italic">
-                      How can I improve my overall sales?
-                    </li>
-                  </ul>
+                  <i class="fas fa-link mr-auto"> </i>
+                  <div class="card-title">Restaurant E-Commerce Website</div>
+                </div>
+              </a>
+            </div>
+            <div class="col-md-6 col-xl-4 mb-5 mt-md-n5" data-aos="fade">
+              <a
+                class="card card-portfolio h-100"
+                href="https://www.aircraftpartusa.com/"
+                target="_blank"
+              >
+                <img
+                  class="card-img-top"
+                  src={LOGISTICS_IMAGE}
+                  alt="Aircraft Part Catalog Search"
+                />
+                <div class="card-body">
+                  <i class="fas fa-link mr-auto"> </i>
+                  <div class="card-title">Aircraft Part Catalog Search</div>
+                </div>
+              </a>
+            </div>
+            <div class="col-md-6 col-xl-4 mb-5 mt-md-n5" data-aos="fade">
+              <div class="card card-portfolio h-100">
+                <img
+                  class="card-img-top"
+                  src={WAITING_IMAGE}
+                  alt="Waiting List Notification App"
+                />
+                <div class="card-body">
+                  <i class="fas fa-unlink mr-auto"> </i>
+                  <div class="card-title">Waiting List Notification App</div>
                 </div>
               </div>
-              <hr class="my-5" />
-              <h4 class="mb-4">
-                <div class="icon-stack bg-primary text-white mr-2">
-                  <i class="fas fa-store"></i>
-                </div>
-                This is how we do it
-              </h4>
-              <p className="lead">
-                Be a practical company that works with our clients to make them
-                feel comfortable.
-              </p>
-              <p>
-                We understand change is difficult. We aim to never push
-                complicated software onto our clients. Before we suggest a
-                solution, we try to understand your processes.
-              </p>
-              <p>
-                We either suggest an existing solution or design a new one for
-                you. Our software is supposed to make your business more money
-                and help you run it better.
-              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="svg-border-rounded text-white">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 144.54 17.34"
+            preserveAspectRatio="none"
+            fill="currentColor"
+          >
+            <path d="M144.54,17.34H0V0H144.54ZM0,0S32.36,17.34,72.27,17.34,144.54,0,144.54,0"></path>
+          </svg>
+        </div>
+      </section>
+      <section class="bg-white py-10">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 mb-5 mb-lg-0 divider-right" data-aos="fade">
+              <div class="testimonial p-lg-5">
+                <p class="testimonial-quote text-primary">
+                  "We get a lot of customers that ask about doing things online.
+                  As a business owner, I want to make my customers happy but I'm
+                  not a computer wizard. That's where you [Nerd Nibble] really
+                  shine."
+                </p>
+                <div class="testimonial-name">Shannon LaPointe</div>
+                <div class="testimonial-position">Restaurant Owner</div>
+              </div>
+            </div>
+            <div class="col-lg-6" data-aos="fade" data-aos-delay="100">
+              <div class="testimonial p-lg-5">
+                <p class="testimonial-quote text-primary">
+                  "After having trouble getting our site to work with GoDaddy
+                  Site Builder, we realized we needed something more advanced...
+                  That's just what we got!"
+                </p>
+                <div class="testimonial-name">Josh Dobrzelewski</div>
+                <div class="testimonial-position">Manager</div>
+              </div>
             </div>
           </div>
         </div>
