@@ -3,8 +3,8 @@ import React, { Component } from "react";
 function AboutPage() {
   return (
     <>
-      <header class="page-header page-header-dark bg-gradient-primary-to-secondary">
-        <div class="page-header-content pt-10">
+      <header class="page-header page-header-dark bg-gradient-primary-to-secondary pb-5">
+        <div class="page-header-content">
           <div class="container d-flex justify-content-center">
             <div className="text-center">
               <h1 class="page-header-title mb-3">About our company</h1>
