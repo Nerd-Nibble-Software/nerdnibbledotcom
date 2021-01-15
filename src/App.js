@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import HomePage from "./components/pages/HomePage";
 import AboutPage from "./components/pages/AboutPage";
 import NotFoundPage from "./components/pages/NotFoundPage";
+import CustomSolutionsPage from "./components/pages/services/custom-solutions/CustomSolutionsPage";
 
 function App() {
   return (
@@ -23,6 +24,10 @@ function App() {
 
                 <Route path="/about" exact>
                   <AboutPage />
+                </Route>
+
+                <Route path="/services/custom-solutions">
+                    <CustomSolutionsPage />
                 </Route>
 
                 <Route path="*" exact>
