@@ -148,18 +148,18 @@ function HomePage() {
             </div>
           </div>
         </div>
-        <div class="svg-border-rounded text-dark">
+        <div class="svg-border-angled text-dark">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 144.54 17.34"
+            viewBox="0 0 100 100"
             preserveAspectRatio="none"
             fill="currentColor"
           >
-            <path d="M144.54,17.34H0V0H144.54ZM0,0S32.36,17.34,72.27,17.34,144.54,0,144.54,0"></path>
+            <polygon points="0,100 100,0 100,100"></polygon>
           </svg>
         </div>
       </section>
-      <section class="bg-dark py-5">
+      <section class="bg-dark py-0">
         <div class="container">
           <div class="row justify-content-center text-center">
             <div class="col-lg-8">
@@ -179,14 +179,14 @@ function HomePage() {
             </div>
           </div>
         </div>
-        <div class="svg-border-rounded text-white">
+        <div class="svg-border-angled text-white">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 144.54 17.34"
+            viewBox="0 0 100 100"
             preserveAspectRatio="none"
             fill="currentColor"
           >
-            <path d="M144.54,17.34H0V0H144.54ZM0,0S32.36,17.34,72.27,17.34,144.54,0,144.54,0"></path>
+            <polygon points="0,100 100,0 100,100"></polygon>
           </svg>
         </div>
       </section>
