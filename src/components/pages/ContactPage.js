@@ -75,11 +75,11 @@ function ContactPage() {
             </div>
             <div class="col-lg-4 mb-5">
               <a
-                class="card card-link border-top border-top-lg border-teal lift text-center o-visible h-100"
+                class="card card-link border-top border-top-lg border-success lift text-center o-visible h-100"
                 href="mailto: social@nerdnibble.com"
               >
                 <div class="card-body">
-                  <div class="icon-stack icon-stack-xl bg-teal-soft text-teal mb-4 mt-n5 z-1 shadow">
+                  <div class="icon-stack icon-stack-xl bg-success-soft text-success mb-4 mt-n5 z-1 shadow">
                     <i class="far fa-thumbs-up"></i>
                   </div>
                   <h5>Media</h5>
@@ -89,7 +89,7 @@ function ContactPage() {
                   </p>
                 </div>
                 <div class="card-footer">
-                  <div class="text-teal font-weight-bold d-inline-flex align-items-center">
+                  <div class="text-success font-weight-bold d-inline-flex align-items-center">
                     Contact Media<i class="fas fa-arrow-right text-xs ml-1"></i>
                   </div>
                 </div>

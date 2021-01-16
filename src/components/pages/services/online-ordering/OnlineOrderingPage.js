@@ -12,6 +12,9 @@ function OnlineOrderingPage() {
         <div class="page-header-content">
           <div class="container d-flex justify-content-center">
             <div className="text-center">
+              <div class="badge badge-transparent-light badge-pill badge-marketing">
+                Coming soon
+              </div>
               <h1 class="page-header-title mb-3">Online Ordering Software</h1>
               <p class="page-header-text">
                 Expand your restaurant by selling your delivery and take out
@@ -57,7 +60,7 @@ function OnlineOrderingPage() {
             <div class="col-lg-6 mb-5">
               <div class="card h-100" data-aos="fade-up">
                 <div class="card-body p-5">
-                  <div class="icon-stack icon-stack-xl bg-secondary-soft text-secondary mb-4">
+                  <div class="icon-stack icon-stack-xl bg-primary-soft text-primary mb-4">
                     <i class="fas fa-hamburger"></i>
                   </div>
                   <h5>Sell food online</h5>
@@ -72,7 +75,7 @@ function OnlineOrderingPage() {
             <div class="col-lg-6 mb-5">
               <div class="card h-100" data-aos="fade-up">
                 <div class="card-body p-5">
-                  <div class="icon-stack icon-stack-xl bg-success-soft text-success mb-4">
+                  <div class="icon-stack icon-stack-xl bg-light text-dark mb-4">
                     <i class="fas fa-chart-line"></i>
                   </div>
                   <h5>Increase sales</h5>
@@ -87,7 +90,7 @@ function OnlineOrderingPage() {
             <div class="col-lg-6 mb-5 mb-lg-0">
               <div class="card h-100" data-aos="fade-up">
                 <div class="card-body p-5">
-                  <div class="icon-stack icon-stack-xl bg-primary-soft text-primary mb-4">
+                  <div class="icon-stack icon-stack-xl bg-success-soft text-success mb-4">
                     <i class="fas fa-tachometer-alt"></i>
                   </div>
                   <h5>Improved efficiency</h5>
@@ -104,7 +107,7 @@ function OnlineOrderingPage() {
             <div class="col-lg-6">
               <div class="card h-100" data-aos="fade-up">
                 <div class="card-body p-5">
-                  <div class="icon-stack icon-stack-xl bg-light-soft text-dark mb-4">
+                  <div class="icon-stack icon-stack-xl bg-secondary-soft text-secondary mb-4">
                     <i class="fas fa-hand-holding-usd"></i>
                   </div>
                   <h5>Dynamic pricing plans</h5>
@@ -204,7 +207,6 @@ function OnlineOrderingPage() {
       <section class="bg-white py-10">
         <div class="container text-center">
           <h1>Will be available in 2021.</h1>
-
         </div>
       </section>
     </>
