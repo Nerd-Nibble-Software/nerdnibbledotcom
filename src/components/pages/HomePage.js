@@ -159,16 +159,17 @@ function HomePage() {
           </svg>
         </div>
       </section>
-      <section class="bg-dark py-0">
+      <section class="bg-dark py-5">
         <div class="container">
           <div class="row justify-content-center text-center">
             <div class="col-lg-8">
-              <div class="badge badge-transparent-light badge-pill badge-marketing mb-4">
-                Get Started
+              <div class="badge badge-transparent-light badge-pill badge-marketing">
+                <i class="fas fa-chart-line mr-2"></i> Get Started
               </div>
-              <h2 class="text-white">Increase Sales</h2>
-              <p class="lead text-white-50 mb-5">
-                Increase your company sales by meeting your customers online!
+              <p class="lead text-white-50">
+                Find solutions that help your small businesses run better.
+                Whether it is scheduling, inventory management, online payments,
+                ect., your small business has potential for growth.
               </p>
               {/* <a
                 class="btn btn-teal btn-marketing rounded-pill lift lift-sm"
@@ -176,6 +177,12 @@ function HomePage() {
               >
                 Buy Now!
               </a> */}
+              <Link
+                class="btn btn-primary btn-marketing rounded-pill lift lift-sm"
+                to="/contact"
+              >
+                Contact Us
+              </Link>
             </div>
           </div>
         </div>
