@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import HomePage from "./components/pages/HomePage";
 import AboutPage from "./components/pages/AboutPage";
+import ContactPage from "./components/pages/ContactPage";
 import NotFoundPage from "./components/pages/NotFoundPage";
 import CustomSolutionsPage from "./components/pages/services/custom-solutions/CustomSolutionsPage";
 
@@ -28,6 +29,10 @@ function App() {
 
                 <Route path="/services/custom-solutions">
                     <CustomSolutionsPage />
+                </Route>
+
+                <Route path="/contact" exact>
+                  <ContactPage />
                 </Route>
 
                 <Route path="*" exact>

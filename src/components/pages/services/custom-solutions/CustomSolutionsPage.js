@@ -32,7 +32,7 @@ function CustomSolutionsPage() {
         </div>
       </header>
 
-      <section class="bg-white pt-10">
+      <section class="bg-white pt-5">
         <div class="container">
           {/* <div class="row">
             <div class="col-lg-8 mb-5">
@@ -55,7 +55,7 @@ function CustomSolutionsPage() {
           </div> */}
           <div class="row mb-n10 z-1">
             <div class="col-lg-6 mb-5">
-              <div class="card h-100">
+              <div class="card h-100" data-aos="fade-up">
                 <div class="card-body p-5">
                   <div class="icon-stack icon-stack-xl bg-secondary-soft text-secondary mb-4">
                     <i class="fas fa-handshake"></i>
@@ -70,7 +70,7 @@ function CustomSolutionsPage() {
               </div>
             </div>
             <div class="col-lg-6 mb-5">
-              <div class="card h-100">
+              <div class="card h-100" data-aos="fade-up">
                 <div class="card-body p-5">
                   <div class="icon-stack icon-stack-xl bg-success-soft text-success mb-4">
                     <i class="fas fa-chart-line"></i>
@@ -86,7 +86,7 @@ function CustomSolutionsPage() {
               </div>
             </div>
             <div class="col-lg-6 mb-5 mb-lg-0">
-              <div class="card h-100">
+              <div class="card h-100" data-aos="fade-up">
                 <div class="card-body p-5">
                   <div class="icon-stack icon-stack-xl bg-primary-soft text-primary mb-4">
                     <i class="fas fa-smile"></i>
@@ -102,7 +102,7 @@ function CustomSolutionsPage() {
               </div>
             </div>
             <div class="col-lg-6">
-              <div class="card h-100">
+              <div class="card h-100" data-aos="fade-up">
                 <div class="card-body p-5">
                   <div class="icon-stack icon-stack-xl bg-light-soft text-dark mb-4">
                     <i class="fas fa-hand-holding-usd"></i>
@@ -118,12 +118,43 @@ function CustomSolutionsPage() {
               </div>
             </div>
           </div>
-          <div class="row align-items-center mt-5">
-            <div className="d-flex m-auto">
-              <h4 class="my-auto">Let's discuss a solution for you!</h4>
+        </div>
+        <div class="svg-border-rounded text-light">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 144.54 17.34"
+            preserveAspectRatio="none"
+            fill="currentColor"
+          >
+            <path d="M144.54,17.34H0V0H144.54ZM0,0S32.36,17.34,72.27,17.34,144.54,0,144.54,0"></path>
+          </svg>
+        </div>
+      </section>
+
+      <section class="bg-light py-10">
+        <div class="container">
+          <div class="row align-items-center" data-aos="fade-right">
+            <div class="col-lg-9 p-0 mb-3">
+              <h4>Let's improve your business!</h4>
+              <div
+                class="lead mb-2 mb-lg-0 text-gray-500 d-flex flex-column flex-lg-row justify-content-around w-100"
+              >
+                <span >1. Contact</span>
+                <i class="fas fa-long-arrow-alt-right mx-1 my-auto" data-aos="fade-right"></i>
+                <span>2. Collaborate</span>
+                <i class="fas fa-long-arrow-alt-right mx-1 my-auto" data-aos="fade-right"></i>
+                <span>3. Development</span>
+                <i class="fas fa-long-arrow-alt-right mx-1 my-auto" data-aos="fade-right"></i>
+                <span>4. Deployment</span>
+                <i class="fas fa-long-arrow-alt-right mx-1 my-auto" data-aos="fade-right"></i>
+                <span>5. Maintenance</span>
+              </div>
+            </div>
+            <div class="col-lg-3 text-lg-right p-0">
               <Link
-                class="btn btn-primary btn-marketing rounded-pill mx-3 lift lift-sm"
-                to="contact"
+                class="btn btn-primary btn-marketing rounded-pill mr-3 my-2 lift lift-sm"
+                to="/contact"
+                data-aos="fade-right"
               >
                 Contact Us
               </Link>
@@ -131,24 +162,25 @@ function CustomSolutionsPage() {
           </div>
         </div>
 
-        <div class="svg-border-angled text-dark">
+        <div class="svg-border-rounded text-dark">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 100 100"
+            viewBox="0 0 144.54 17.34"
             preserveAspectRatio="none"
             fill="currentColor"
           >
-            <polygon points="0,100 100,0 100,100"></polygon>
+            <path d="M144.54,17.34H0V0H144.54ZM0,0S32.36,17.34,72.27,17.34,144.54,0,144.54,0"></path>
           </svg>
         </div>
       </section>
+
       <section class="bg-dark py-5">
         <div class="container text-center">
           <h2 class="text-white">Our Portfolio</h2>
           <p class="lead text-white-50 mb-5">
             A showcase of project's we've worked on in the past year
           </p>
-          <div class="row">
+          <div class="row mb-n10 z-1">
             <div class="col-md-6 col-xl-4 mb-5 mt-n5" data-aos="fade">
               <a
                 class="card card-portfolio h-100"
@@ -199,14 +231,14 @@ function CustomSolutionsPage() {
           </div>
         </div>
 
-        <div class="svg-border-angled text-white">
+        <div class="svg-border-rounded text-white">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 100 100"
+            viewBox="0 0 144.54 17.34"
             preserveAspectRatio="none"
             fill="currentColor"
           >
-            <polygon points="0,100 100,0 100,100"></polygon>
+            <path d="M144.54,17.34H0V0H144.54ZM0,0S32.36,17.34,72.27,17.34,144.54,0,144.54,0"></path>
           </svg>
         </div>
       </section>

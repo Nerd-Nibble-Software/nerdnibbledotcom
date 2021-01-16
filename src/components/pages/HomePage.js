@@ -80,7 +80,7 @@ function HomePage() {
             </div>
           </div>
         </div>
-        <div class="svg-border-rounded text-light b-none">
+        <div class="svg-border-rounded text-light">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 144.54 17.34"
@@ -126,7 +126,7 @@ function HomePage() {
                   </p>
                   <Link
                     className="small text-arrow-icon"
-                    to="/services/online-ordering"
+                    to="services/online-ordering"
                   >
                     Learn More<i class="fas fa-arrow-right ml-1"></i>
                   </Link>
@@ -139,7 +139,7 @@ function HomePage() {
                   </p>
                   <Link
                     className="small text-arrow-icon"
-                    to="/services/custom-solutions"
+                    to="services/custom-solutions"
                   >
                     Learn More<i class="fas fa-arrow-right ml-1"></i>
                   </Link>
@@ -148,14 +148,14 @@ function HomePage() {
             </div>
           </div>
         </div>
-        <div class="svg-border-angled text-dark">
+        <div class="svg-border-rounded text-dark">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 100 100"
+            viewBox="0 0 144.54 17.34"
             preserveAspectRatio="none"
             fill="currentColor"
           >
-            <polygon points="0,100 100,0 100,100"></polygon>
+            <path d="M144.54,17.34H0V0H144.54ZM0,0S32.36,17.34,72.27,17.34,144.54,0,144.54,0"></path>
           </svg>
         </div>
       </section>
@@ -179,14 +179,14 @@ function HomePage() {
             </div>
           </div>
         </div>
-        <div class="svg-border-angled text-white">
+        <div class="svg-border-rounded text-white">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 100 100"
+            viewBox="0 0 144.54 17.34"
             preserveAspectRatio="none"
             fill="currentColor"
           >
-            <polygon points="0,100 100,0 100,100"></polygon>
+            <path d="M144.54,17.34H0V0H144.54ZM0,0S32.36,17.34,72.27,17.34,144.54,0,144.54,0"></path>
           </svg>
         </div>
       </section>

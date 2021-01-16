@@ -30,7 +30,7 @@ function Footer() {
             <div class="col-lg-6 text-lg-right">
               <Link
                 class="btn btn-primary btn-marketing rounded-pill mr-3 my-2 lift lift-sm"
-                to="contact"
+                to="/contact"
               >
                 Contact Us
               </Link>
