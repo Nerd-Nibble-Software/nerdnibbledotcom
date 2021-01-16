@@ -9,6 +9,7 @@ import AboutPage from "./components/pages/AboutPage";
 import ContactPage from "./components/pages/ContactPage";
 import NotFoundPage from "./components/pages/NotFoundPage";
 import CustomSolutionsPage from "./components/pages/services/custom-solutions/CustomSolutionsPage";
+import OnlineOrderingPage from "./components/pages/services/online-ordering/OnlineOrderingPage";
 
 function App() {
   return (
@@ -25,6 +26,10 @@ function App() {
 
                 <Route path="/about" exact>
                   <AboutPage />
+                </Route>
+
+                <Route path="/services/online-ordering">
+                    <OnlineOrderingPage />
                 </Route>
 
                 <Route path="/services/custom-solutions">
